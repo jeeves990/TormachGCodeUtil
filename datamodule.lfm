@@ -1,0 +1,13 @@
+object dmod: Tdmod
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  OldCreateOrder = False
+  Height = 356
+  HorizontalOffset = 779
+  VerticalOffset = 230
+  Width = 587
+  object opn_dlg: TOpenDialog
+    Left = 64
+    Top = 32
+  end
+end

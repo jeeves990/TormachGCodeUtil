@@ -1,0 +1,225 @@
+object fmAnnotateGCode: TfmAnnotateGCode
+  Left = 518
+  Height = 568
+  Top = 196
+  Width = 815
+  Caption = 'frmAnnotateGCode'
+  ClientHeight = 568
+  ClientWidth = 815
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '2.2.0.4'
+  object pnlTop: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 815
+    Align = alTop
+    ClientHeight = 50
+    ClientWidth = 815
+    TabOrder = 0
+    object lblGCodeFileName: TLabel
+      Left = 18
+      Height = 15
+      Top = 21
+      Width = 88
+      Caption = 'GCode file name'
+    end
+    object edGCodeFileName: TEdit
+      Left = 127
+      Height = 23
+      Top = 17
+      Width = 457
+      Anchors = [akTop, akLeft, akRight]
+      TabOrder = 0
+    end
+    object btnBrowse: TButton
+      Left = 604
+      Height = 25
+      Top = 16
+      Width = 75
+      Anchors = [akTop, akRight]
+      Caption = 'Browse'
+      OnClick = btnBrowseClick
+      TabOrder = 1
+    end
+    object btnOpen: TButton
+      Left = 706
+      Height = 25
+      Top = 16
+      Width = 75
+      Anchors = [akTop, akRight]
+      Caption = 'Open'
+      OnClick = btnOpenClick
+      TabOrder = 2
+    end
+  end
+  object pnlBottom: TPanel
+    Left = 0
+    Height = 50
+    Top = 518
+    Width = 815
+    Align = alBottom
+    TabOrder = 1
+  end
+  object splt_leftMost: TSplitter
+    Left = 250
+    Height = 468
+    Top = 50
+    Width = 8
+  end
+  object Splitter2: TSplitter
+    Left = 258
+    Height = 468
+    Top = 50
+    Width = 5
+  end
+  object pnl4Memo: TPanel
+    Left = 0
+    Height = 468
+    Top = 50
+    Width = 250
+    Align = alLeft
+    ClientHeight = 468
+    ClientWidth = 250
+    TabOrder = 4
+    object Splitter3: TSplitter
+      Cursor = crVSplit
+      Left = 1
+      Height = 5
+      Top = 2
+      Width = 248
+      Align = alTop
+      ResizeAnchor = akTop
+    end
+    object lblMmoFileName: TLabel
+      Left = 1
+      Height = 1
+      Top = 1
+      Width = 248
+      Align = alTop
+    end
+    object mmoTopComments: TMemo
+      Left = 1
+      Height = 90
+      Top = 7
+      Width = 248
+      Align = alTop
+      ReadOnly = True
+      TabOrder = 1
+    end
+    object Splitter4: TSplitter
+      Cursor = crVSplit
+      Left = 1
+      Height = 5
+      Top = 97
+      Width = 248
+      Align = alTop
+      ResizeAnchor = akTop
+    end
+    object mmoGCodeFile: TMemo
+      Left = 1
+      Height = 365
+      Top = 102
+      Width = 248
+      Align = alClient
+      HideSelection = False
+      Lines.Strings = (
+        ''
+      )
+      OnDblClick = mmoGCodeFileDblClick
+      OnKeyUp = mmoGCodeFileKeyUp
+      ReadOnly = True
+      ScrollBars = ssBoth
+      TabOrder = 3
+      WordWrap = False
+    end
+  end
+  object pgCtrl: TPageControl
+    Left = 263
+    Height = 468
+    Top = 50
+    Width = 552
+    ActivePage = tabAnnotated
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 5
+    object tabAnnotated: TTabSheet
+      Caption = 'Annotated'
+      ClientHeight = 440
+      ClientWidth = 544
+      object pnlAnnotatedGCode: TPanel
+        Left = 0
+        Height = 440
+        Top = 0
+        Width = 544
+        Align = alClient
+        ClientHeight = 440
+        ClientWidth = 544
+        TabOrder = 0
+        object sGridAnnotated: TStringGrid
+          Left = 1
+          Height = 403
+          Top = 36
+          Width = 542
+          Align = alClient
+          ColCount = 2
+          Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goColSizing, goThumbTracking, goSmoothScroll]
+          TabOrder = 0
+          ColWidths = (
+            77
+            294
+          )
+          Cells = (
+            2
+            0
+            0
+            'GCode'
+            1
+            0
+            'Line #:'
+          )
+        end
+        object Panel1: TPanel
+          Left = 1
+          Height = 35
+          Top = 1
+          Width = 542
+          Align = alTop
+          ClientHeight = 35
+          ClientWidth = 542
+          TabOrder = 1
+          object Label1: TLabel
+            Left = 10
+            Height = 15
+            Top = 10
+            Width = 110
+            Caption = 'Selected current line:'
+          end
+          object edCurLine: TEdit
+            Left = 135
+            Height = 23
+            Top = 6
+            Width = 393
+            Anchors = [akTop, akLeft, akRight]
+            TabOrder = 0
+          end
+        end
+      end
+    end
+    object tabWorkSheet: TTabSheet
+      Caption = 'Work Sheet'
+      ClientHeight = 440
+      ClientWidth = 544
+      object lsBoxWork: TListBox
+        Left = 8
+        Height = 424
+        Top = 8
+        Width = 504
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        ItemHeight = 0
+        TabOrder = 0
+      end
+    end
+  end
+end

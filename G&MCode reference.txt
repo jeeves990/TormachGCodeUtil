@@ -1,0 +1,82 @@
+    G00: Rapid positioning
+    G01: Linear interpolation
+    G02: Clockwise circular interpolation
+    G03: Counter-clockwise circular interpolation
+    G04: Dwell
+    G07: Diameter mode
+    G08: Radius mode
+    G10 L1: Set tool table entry
+    G10 L10: Set tool table [calculated] workpiece
+    G10 L11: Set tool table [calculated] fixture
+    G10 L2: Set work offset origin
+    G10 L20: Set work offset origin – calculated
+    G17: Plane selection
+    G18: Plane selection
+    G19: Plane selection
+    G20: Inch unit
+    G21: Millimeter unit
+    G28: Return home
+    G28.1: Reference axes
+    G30: Return home
+    G33: Spindle sync. motion (like threading)
+    G33.1: Rigid tapping
+    G40: Cancel cutter radius compensation
+    G41: Start cutter radius compensation left
+    G42: Start cutter radius compensation right
+    G41.1: Dynamic Cutter Compensation
+    G42.1: Dynamic Cutter Compensation
+    G43: Apply tool length offset
+    G49: Cancel tool length offset
+    G53: Move in absolute machine coordinate system
+    G54: Use fixture offset 1
+    G55: Use fixture offset 2
+    G56: Use fixture offset 3
+    G57: Use fixture offset 4
+    G58: Use fixture offset 5
+    G59: Use fixture offset 6 / use general fixture number
+    G61: Path control mode
+    G61.1: Path control mode
+    G64: Path control with optional tolerance
+    G73: Canned cycle – peck drilling
+    G76: Multi-pass threading cycle
+    G80: Cancel motion mode (including canned cycles)
+    G81: Canned cycle – drilling
+    G82: Canned cycle – drilling with dwell
+    G83: Canned cycle – peck drilling
+    G85: Canned cycle – boring, no dwell, feed out
+    G86: Canned cycle – boring, spindle stop, rapid out
+    G88: Canned cycle – boring, spindle stop, manual out
+    G89: Canned cycle – boring, dwell, feed out
+    G90: Absolute distance mode
+    G90.1: Absolute distance mode
+    G91: Incremental distance mode
+    G91.1: Incremental distance mode
+    G92: Offset coordinates and set parameters
+    G92.x: Cancel G92, etc.
+    G93: Feed mode
+    G94: Feed mode
+    G95: Feed mode
+    G96: CSS, RPM mode
+    G97: CSS, RPM mode
+    G96: CSS, RPM mode
+    G97: CSS, RPM mode
+    G98: Initial level return / R-point level after canned cycles
+    M00: Program stop
+    M01: Optional program stop
+    M02: Program end
+    M03: Rotate spindle clockwise
+    M04: Rotate spindle counterclockwise
+    M05: Stop spindle rotation
+    M07: Coolant on
+    M08: Coolant on
+    M09: All coolant off
+    M10: Unclamp automatic collet closer
+    M11: Clamp automatic collet closer
+    M30: Program end and rewind
+    M48: Enable speed and feed override
+    M49: Disable speed and feed override
+    M64: Activate output relays
+    M65: Deactivate output relays
+    M66: Wait on an input
+    M98: Call subroutine
+    M99: Return from subroutine/repeat

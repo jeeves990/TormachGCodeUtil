@@ -1,0 +1,19 @@
+    M00: Program stop
+    M01: Optional program stop
+    M02: Program end
+    M03: Rotate spindle clockwise
+    M04: Rotate spindle counterclockwise
+    M05: Stop spindle rotation
+    M07: Coolant on
+    M08: Coolant on
+    M09: All coolant off
+    M10: Unclamp automatic collet closer
+    M11: Clamp automatic collet closer
+    M30: Program end and rewind
+    M48: Enable speed and feed override
+    M49: Disable speed and feed override
+    M64: Activate output relays
+    M65: Deactivate output relays
+    M66: Wait on an input
+    M98: Call subroutine
+    M99: Return from subroutine/repeat

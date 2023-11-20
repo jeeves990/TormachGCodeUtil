@@ -1,0 +1,98 @@
+object formGCodeFile: TformGCodeFile
+  Left = 732
+  Height = 435
+  Top = 289
+  Width = 495
+  Caption = 'Parse and rewrite gcode'
+  ClientHeight = 435
+  ClientWidth = 495
+  LCLVersion = '2.2.0.4'
+  object pnlClient: TPanel
+    Left = 0
+    Height = 345
+    Top = 40
+    Width = 495
+    Align = alClient
+    ClientHeight = 345
+    ClientWidth = 495
+    TabOrder = 0
+    object mmoRawGCode: TMemo
+      Left = 1
+      Height = 343
+      Top = 1
+      Width = 150
+      Align = alLeft
+      TabOrder = 0
+    end
+    object mmoCommentedGCode: TMemo
+      Left = 156
+      Height = 343
+      Top = 1
+      Width = 338
+      Align = alClient
+      TabOrder = 1
+    end
+    object Splitter1: TSplitter
+      Left = 151
+      Height = 343
+      Top = 1
+      Width = 5
+    end
+  end
+  object pnlTop: TPanel
+    Left = 0
+    Height = 40
+    Top = 0
+    Width = 495
+    Align = alTop
+    ClientHeight = 40
+    ClientWidth = 495
+    TabOrder = 1
+    object btnBrowse4GCodeFile: TButton
+      Left = 352
+      Height = 25
+      Top = 8
+      Width = 128
+      Anchors = [akTop, akRight]
+      Caption = 'Browse for GCode'
+      OnClick = btnBrowse4GCodeFileClick
+      TabOrder = 0
+    end
+    object lblGCodeFileName: TLabel
+      Left = 8
+      Height = 15
+      Top = 13
+      Width = 91
+      Caption = 'GCode file name:'
+    end
+    object edGCodeFileName: TEdit
+      Left = 110
+      Height = 23
+      Top = 10
+      Width = 229
+      TabOrder = 1
+    end
+  end
+  object pnlBottom: TPanel
+    Left = 0
+    Height = 50
+    Top = 385
+    Width = 495
+    Align = alBottom
+    ClientHeight = 50
+    ClientWidth = 495
+    TabOrder = 2
+    object btnRewriteGCode: TButton
+      Left = 20
+      Height = 25
+      Top = 10
+      Width = 96
+      Caption = 'Rewrite GCode'
+      TabOrder = 0
+    end
+  end
+  object opnDlg: TOpenDialog
+    Left = 392
+    Top = 16
+  end
+end

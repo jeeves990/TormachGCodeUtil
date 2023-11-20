@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="pjTormachGCode.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="28"/>
+        <UsageCount Value="87"/>
+      </Unit>
+      <Unit>
+        <Filename Value="frmtormachgcode.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmTormach"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmTormachGCode"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="136"/>
+        <CursorPos Y="159"/>
+        <FoldState Value=" T3lg04:"/>
+        <UsageCount Value="87"/>
+        <Bookmarks Count="1">
+          <Item0 X="14" Y="204" ID="3"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="frmgcodefile.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="formGCodeFile"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmGCodeFile"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="48"/>
+        <CursorPos X="23" Y="65"/>
+        <UsageCount Value="81"/>
+      </Unit>
+      <Unit>
+        <Filename Value="datamodule.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmod"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="dataModule"/>
+        <TopLine Value="91"/>
+        <CursorPos Y="104"/>
+        <FoldState Value=" T3iG05011 PEC0C"/>
+        <UsageCount Value="75"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="formannotategcode.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmAnnotateGCode"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formAnnotateGCode"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="184"/>
+        <CursorPos Y="205"/>
+        <FoldState Value=" T3iR05334 PkDmY0+"/>
+        <UsageCount Value="59"/>
+        <Bookmarks Count="4">
+          <Item0 Y="230" ID="9"/>
+          <Item1 Y="123"/>
+          <Item2 X="4" Y="133" ID="1"/>
+          <Item3 X="25" Y="216" ID="2"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="untstore.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="untStore"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="19" Y="94"/>
+        <FoldState Value=" T3i30L212 PifjA0e"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="formcodecomments.pp"/>
+        <ComponentName Value="frmCodeComts"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="53" Y="8"/>
+        <UsageCount Value="19"/>
+      </Unit>
+      <Unit>
+        <Filename Value="parsegcoderef.pas"/>
+        <UnitName Value="parseGCodeRef"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="43"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\lazarus_64\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2152"/>
+        <CursorPos Y="2167"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\lazarus_64\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1687"/>
+        <CursorPos Y="1705"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\lazarus_64\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="219"/>
+        <CursorPos X="16" Y="183"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\lazarus_64\lcl\lclclasses.pp"/>
+        <UnitName Value="LCLClasses"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="145"/>
+        <CursorPos Y="169"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utilities.pp"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="13"/>
+        <UsageCount Value="19"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\lazarus_64\fpc\3.2.2\source\packages\fcl-base\src\inifiles.pp"/>
+        <UnitName Value="IniFiles"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6" Y="49"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\lazarus_64\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="90"/>
+        <CursorPos X="27" Y="104"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\lazarus_64\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1596"/>
+        <CursorPos X="11" Y="1620"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\lazarus_64\fpc\3.2.2\source\packages\rtl-objpas\src\inc\strutils.pp"/>
+        <UnitName Value="StrUtils"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="172"/>
+        <CursorPos X="10" Y="189"/>
+        <UsageCount Value="9"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="formannotategcode.pp"/>
+        <Caret Line="205" TopLine="184"/>
+      </Position>
+      <Position>
+        <Filename Value="datamodule.pp"/>
+        <Caret Line="104" TopLine="91"/>
+      </Position>
+      <Position>
+        <Filename Value="formannotategcode.pp"/>
+        <Caret Line="205" TopLine="184"/>
+      </Position>
+      <Position>
+        <Filename Value="datamodule.pp"/>
+        <Caret Line="104" TopLine="91"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="14" Column="6" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="13" Column="9"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="25" Column="14" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="31" Column="30" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="61" Column="13" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="frmtormachgcode.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="frmtormachgcode.pas"/>
+        <Caret Line="233" TopLine="227"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="79" Column="47" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="27" Column="14" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="66" Column="56" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="89" Column="52" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="71" Column="22" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="51" Column="10" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="3" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="16" Column="14" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="98" Column="17" TopLine="78"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="102" Column="28" TopLine="82"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="36" Column="44" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="69" Column="22" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="72" Column="27" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="70" Column="37" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="34" Column="33" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="156" Column="51" TopLine="90"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="95" Column="13" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="37" Column="47" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="untstore.pp"/>
+        <Caret Line="96" Column="45" TopLine="70"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <Watches>
+      <Item>
+        <Expression Value="_code"/>
+      </Item>
+      <Item>
+        <Expression Value="_str"/>
+      </Item>
+      <Item>
+        <Expression Value="_value"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>
